@@ -24,8 +24,12 @@ const routes: Routes = [
     component: BarrioComponent
   },
   {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
     path: '',
-    component: HomeComponent
+    component: LoginComponent
   },
   {
     path: '**',

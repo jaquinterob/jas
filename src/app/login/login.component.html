@@ -1,1 +1,25 @@
-<p>login works!</p>
+{{ usuario_jas| json }}
+<div class="contenedor_login">
+    <mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>Inicio de sesión</mat-card-title>
+        <mat-card-subtitle>JAS | Estaca Belén</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form">
+            <mat-form-field  class="example-full-width">
+                <input autofocus [(ngModel)] = "usuario" name = 'usuario' matInput placeholder="Usuario" >
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <input type="password" [(ngModel)] = "password" name = 'password'  matInput placeholder="Contraseña" >
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button (click) = "validar_credencales()" class="boton_inicio" mat-raised-button color="primary">Iniciar Sesión</button>
+    </mat-card-actions>
+    </mat-card>
+</div>
+
+
+

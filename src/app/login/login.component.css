@@ -1,0 +1,20 @@
+.contenedor_login{
+ width: 94%;
+ margin: auto;
+ padding-top: 50%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.boton_inicio{
+    width: 100%;
+    font-size: 16px;
+}

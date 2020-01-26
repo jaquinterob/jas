@@ -12,4 +12,27 @@
 <body>
   <app-root></app-root>
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6WrlJDxNBiKumiVNaQ3bm_MaPX160SrI",
+    authDomain: "jas-estaca-belen.firebaseapp.com",
+    databaseURL: "https://jas-estaca-belen.firebaseio.com",
+    projectId: "jas-estaca-belen",
+    storageBucket: "jas-estaca-belen.appspot.com",
+    messagingSenderId: "114999990675",
+    appId: "1:114999990675:web:8b8d96fae68f923e8e7066",
+    measurementId: "G-SM64HXJ8VJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
